@@ -1,0 +1,78 @@
+#main{
+  width:100%;
+  background: url("background.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 52vh;
+}
+#main:before{
+   content:"";
+   position:absolute;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   background:linear-gradient(to bottom,black 2%,transparent 30%);
+ }
+body{
+  background-color: black;
+}
+.navbar {
+  background: transparent;
+  border: none;
+}
+hr {
+   height: 12px;
+   background-color: grey; /* Modern Browsers */
+ }
+h1{
+  color: white;
+  font-size: 55px;
+  text-align: center;
+  word-break: break-all
+}
+h2{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  word-break: break-all
+}
+h3{
+  color: white;
+  font-size: 20px;
+  padding-top: 75px;
+  margin-top: -50px;
+  margin-bottom: 20px;
+  text-align: center;
+  word-break: break-all
+}
+input{
+  height: 60px;
+  width: 500px;
+  border-radius: 3px;
+}
+#getst{
+  border-radius: 0px; padding: 13px; margin-left: -5px; margin-top: -5px; font-size: 20px;
+  background-color: red;
+}
+#meat{
+  color: white;
+  font-size: 50px;
+  text-align: left;
+}
+h4{
+  text-align: left;
+  color:white;
+  font-size: 50px;
+  padding-left: 150px;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+h5{
+  color: white;
+  font-size: 25px;
+  text-align: left;
+  padding-top: 10px;
+  margin-left: 150px;
+  margin-top: -20px;
+}
